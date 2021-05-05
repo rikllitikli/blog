@@ -1,21 +1,6 @@
 @media only screen and (max-width: 750px) {
 
-    .blog_header {
-        background-color: rgb(36, 47, 53, 70%);
-        padding: 14px 0 18px;
-    }
 
-    .blog_background_header {
-        display: none;
-    }
-
-    .blog_flex_container {
-        display: block;
-    }
-
-    .blog_image {
-        width: 100%;
-    }
 
 
 }

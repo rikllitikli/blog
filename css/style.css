@@ -3,13 +3,13 @@
     padding: 0;
 }
 
-header {
+.blog_header {
     position: absolute;
     width: 100%;
     padding-top: 16px;
 }
 
-.container {
+.blog_container {
     max-width: 1185px;
     margin: auto;
     display: flex;
@@ -18,7 +18,7 @@ header {
 
 }
 
-header div a {
+.blog_header div a {
     display: inline-block;
 }
 
@@ -30,7 +30,7 @@ header div a {
     font-weight: 600;
 }
 
-.background_header {
+.blog_background_header {
     background-image: url("../img/back.jpg");
     background-position: top center;
     background-size: 100%;
@@ -39,26 +39,30 @@ header div a {
     margin-bottom: 78px;
 }
 
-.background {
+.blog_background {
     max-width: 1151px;
     margin: auto;
     background-color: #f9f9f9;
     padding: 64px 63px 65px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
-.image {
+.blog_image_container {
+    margin-right: 58px;
+}
+
+.blog_image {
     background-color: white;
     padding: 32px 34px 49px;
     margin-bottom: 57px;
 }
 
-.image img {
+.blog_image img {
     margin-bottom: 33px;
 }
 
-.image h2 {
+.blog_image h2 {
     color: black;
     font-size: 30px;
     margin-bottom: 30px;
@@ -66,7 +70,7 @@ header div a {
     font-weight: 300;
 }
 
-.image h4 {
+.blog_image h4 {
     color: #d3b000;
     font-size: 15px;
     font-family: 'Open Sans';
@@ -74,7 +78,7 @@ header div a {
     margin-bottom: 36px;
 }
 
-.image p {
+.blog_image p {
     max-width: 584px;
     font-family: 'Cardo';
     font-weight: normal;
@@ -83,7 +87,7 @@ header div a {
     margin-bottom: 72px;
 }
 
-.image a {
+.blog_image a {
     font-size: 16px;
     font-family: 'Open Sans';
     font-weight: 300;
@@ -91,4 +95,47 @@ header div a {
     color: #021725;
     border: solid 1px black;
     padding: 17px 54px;
+}
+
+.blog_list {
+    padding-top: 4px;
+    width: 100%;
+}
+
+.blog_list .blog_Name {
+    color: #021725;
+    font-size: 23px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    margin-bottom: 37px;
+}
+
+
+.blog_list .blog_Name:after {
+    display: block;
+    content: "";
+    background-color: #d3b000;
+    height: 4px;
+    margin-top: 18px;
+}
+
+.blog_title {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: italic;
+    color: #021725;
+    line-height: 25px;
+}
+
+.blog_title:nth-child(5), .blog_title:nth-child(10) {
+    margin-bottom: 60px;
+}
+
+.blog_Name:nth-child(6) {
+    margin-bottom: 38px;
+}
+
+.blog_Name:nth-child(11) {
+    margin-bottom: 32px;
 }
